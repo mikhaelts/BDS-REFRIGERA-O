@@ -1,0 +1,169 @@
+body {
+  background-image: linear-gradient(45deg, rgb(173, 208, 255), rgb(15, 126, 134));
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.botões {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(205, 248, 245);
+  text-indent: 0px;
+  border-radius: 20px;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(32, 21, 21);
+  text-align: center;
+  padding: 18px 18px;
+  text-decoration: none;
+
+}
+
+li a:hover {
+  background-color: rgb(18, 140, 156)
+}
+
+li {
+  border-right: 1px solid rgb(0, 0, 0);
+}
+
+li:last-child {
+  border-right: none;
+}
+
+.area {
+  background-image: url();
+  margin-left: 0px;
+  margin-right: 0px;
+
+}
+.agendamento{
+  position: absolute;
+  top:10%;
+  left: 35%;
+}
+
+.calendario{
+  margin-bottom: 0px;
+  margin-top: -120px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0,0,0.8);
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 190px;
+    border-radius: 15px;
+    color: white;
+}
+.calendario1{
+  border: none;
+  border-radius: 15px;
+  padding: 15px;
+  background-color: #e8e8e8;
+  box-shadow: 6px 6px 12px #ffffff,
+              -6px -6px 12px #c5c5c5;
+  font-size: medium;
+  font-weight: bold;
+  max-width: 200px;
+ }
+ .calendario1:focus {
+  outline-color: white;
+  place-content: "Enter your message!";
+ }
+
+label {
+display: inline-block;
+width: 300px;
+}
+
+input:invalid+span:after {
+  content: '✖';
+  padding-left: 5px;
+}
+
+input:valid+span:after {
+  content: '✓';
+  padding-left: 5px;
+}
+.clique1{
+   position: absolute;
+   top:89%;
+   left: 42%;
+   padding: 0.8em 1.8em;
+ border: 2px solid #17C3B2;
+  
+
+}
+.clique1:hover {
+  border: 1px solid white;
+ }
+ 
+ .clique1:active {
+  box-shadow: 4px 4px 12px #c5c5c5,
+              -4px -4px 12px #ffffff;
+ }
+
+.escolha-tec{
+position: absolute;
+top: 54%;
+right: 25%;
+margin-top: -22%;
+border: none;
+  border-radius: 15px;
+  padding: 15px;
+  background-color: #e8e8e8;
+  box-shadow: 6px 6px 12px #ffffff,
+              -6px -6px 12px #c5c5c5;
+  font-size: medium;
+  font-weight: bold;
+  max-width: 200px;
+}
+.tec1{
+  position: absolute;
+top: 10%;
+right:46%;
+}
+.satisfeito{
+  position: absolute;
+  top: 90%;
+  right: 40%;
+}
+.tipo-de-serviço{
+  position: absolute;
+top: 54%;
+right:24%;
+margin-top: 11%;
+border: none;
+  border-radius: 15px;
+  padding: 15px;
+  background-color: #e8e8e8;
+  box-shadow: 6px 6px 12px #ffffff,
+              -6px -6px 12px #c5c5c5;
+  font-size: medium;
+  font-weight: bold;
+  max-width: 200px;
+}
+.nome-servico{
+  position: absolute;
+top: 50%;
+margin-top: 14%;
+}
+
+
+
+
+
+
+ 
+ 
+

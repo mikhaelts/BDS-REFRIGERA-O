@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agendar</title>
+  <link rel="stylesheet" href="agendar.css">
+</head>
+
+<body>
+
+  <br>
+  <ul class="botões">
+    <li><a href="login.html">INICIO</a></li>
+    <li><a href="contato.html">CONTATO</a></li>
+    <li><a href="agendar.html">AGENDAR SERVIÇO</a></li>
+    <li style="float:right"><a class="active" href="sobre.html">SOBRE</a></li>
+    <br>
+  </ul>
+  <div class="logo">
+    <img src="logo-1.png" alt="logo" width="190px">
+  </div>
+  <h1 class="agendamento">AGENDAMENTO DE SERVIÇOS</h1>
+
+  <form>
+    <div class="calendario">
+      <label for="festa">
+        <h1>Escolha sua melhor data:</h1><br>
+      </label>
+      <input class="calendario1" type="datetime-local"="festa" name="festa" min="2022-04-01" max="2022-04-30" required>
+      <span class="validity"></span>
+      <h1 class="tec1">Escolha o Tecnico :</h1>
+      <div class="escolha-tec">
+        <select name="Tecnico">
+          <option value="---"> --- </option>
+          <option value="barto">BARTOLOMEU</option>
+          <option value="mika">MIKHAEL</option>
+          <option value="ismael">ISMAEL</option>
+        </select>
+      </div>
+      <h1 class="nome-servico">Tipo do Serviço :</h1>
+      <div class="tipo-de-serviço">
+        <select name="Tipo de Serviço">
+          <option value="--">---</option>
+          <option value="barto">MANUTENÇÃO</option>
+          <option value="mika">INSTALAÇÃO</option>
+          <option value="ismael">OUTROS</option>
+        </select>
+      </div>
+     
+  </form>
+  <form class="clique1">
+    <input type="button" value="ENVIAR" onclick="msg()">
+  <script>
+    var dateControl = document.querySelector('input[type="date"]');
+    dateControl.value = '2022-04-01';
+  </script>
+
+  <script>
+    function msg() {
+      alert("Você Agendou seu Serviço!");
+    }
+  </script>
+
+</body>
+
+</html>
